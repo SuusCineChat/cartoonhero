@@ -15,12 +15,23 @@ header{
 	background-color: #ffd752;
 	padding: 40px;
 	text-align: center;
+	background-image: radial-gradient(#fafafa 20%, transparent 20%),
+      radial-gradient(#fafafa 20%, transparent 20%);
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+
 
 }
 
 h1{
-	font-size: 90px
-	color: black;
+	font-size: 60px;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 4px black;
+	background-color: #ffd752;
+	width: 50%;
+	margin: auto;
+
 }
 
 header img{
@@ -35,18 +46,26 @@ header img{
 .content{
 	max-width: 400px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 20px;
 
+}
+h2{
+	font-size: 25px;
+	font-style: bold;
+	color: #ffcb2e;
+	text-align: center;
 }
 
 img.big-image{
 	max-width: 100%;
 
+
 }
 p.caption{
-	font-size: 16px;
+	font-size: 11px;
 	color: orange;
 	font-style: italic;
+	margin-top: 2;
 }
 ul{
 	list-style: none;
